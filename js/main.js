@@ -1,4 +1,15 @@
 const mainBtn = document.querySelector(".create");
+const flushBtn = document.querySelector(".flush");
+
+// tramite la funzione flush do uno scopo al bottone annulla
+flushBtn.addEventListener( "click", function() {
+
+    const ticket = document.querySelector(".ticket");
+
+    ticket.innerHTML = `<h2 class="text-center text-white"> HAI ANNULLATO I DATI INSERITI</h2>
+    <h4 class="text-center text-white">Ricarica la pagina per riprovare</h4>`
+
+})
 
 // lego mainBtn al bottone quindi al click faccio partire la funzione
 mainBtn.addEventListener( "click", function () {
