@@ -1,0 +1,28 @@
+.border-cornflower{
+    border-color: cornflowerblue;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+}
+
+.my-btn{
+    border: 3px solid cornflowerblue;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: .5rem;
+}
+
+.my-btn:active{
+    scale: 1.1;
+    border-color: var(--bs-primary);
+}
+
+h4{
+    font-weight: 700;
+}
+
+.bg-gray{
+    background-color: rgb(165, 158, 158);
+}
+
