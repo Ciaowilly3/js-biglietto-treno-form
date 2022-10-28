@@ -51,6 +51,7 @@ const codiceEl = document.getElementById("codiceCp");
 codiceEl.innerHTML = codice;
 
 // mando in output il prezzo finale
+prezzoFinale=prezzoFinale.toFixed(2);
 const prezzoFinaleEl = document.getElementById("costoBiglietto");
 prezzoFinaleEl.innerHTML = `${prezzoFinale}&euro;`
 
